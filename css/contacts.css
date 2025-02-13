@@ -21,17 +21,23 @@
 
 .contacts__title {
   margin: 0;
-  margin-bottom: 17px;
+  margin-bottom: 9px;
+  transform: translate(-15px, -10px);
+}
+
+.contacts__inner {
+  padding-top: 80px;
+  padding-bottom: 65px;
 }
 
 .contacts__form {
-  margin-bottom: 50px;
+  margin-bottom: 51px;
 }
 
 .contacts__form-input {
-  width: 423px;
+  width: 426px;
   max-height: 44px;
-  padding: 9px 25px;
+  padding: 12px 25px;
 
   background-color: transparent;
   border: 2px solid var(--color-white);
@@ -39,15 +45,16 @@
 
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 22x;
-
+  font-size: 22px;
   color: rgba(255, 255, 255, 0.5);
+
+  transform: translate(-5px, 2px);
 }
 
 .contacts__form-input::placeholder {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 22x;
+  font-size: 22px;
 
   color: rgba(255, 255, 255, 0.5);
 }
@@ -65,5 +72,7 @@
   font-size: 20px;
   text-align: center;
   color: var(--color-white);
+
+  transform: translate(-5px, 2px);
 }
 

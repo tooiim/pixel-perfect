@@ -2,12 +2,17 @@
   background: #f9f9f9;
 }
 
+.features__inner {
+  padding-bottom: 79px;
+}
+
 .features__subtitle {
   display: flex;
   align-items: center;
   justify-content: space-between;
 
-  width: 174px;
+  width: 189px;
+  height: 26px;
   margin-bottom: 35px;
 }
 
@@ -17,15 +22,20 @@
     justify-content: center;
 }
 
-.features__text {
-  max-width: 610px;
-  margin: 0 auto;
-  margin-bottom: 50px;
+.features__img {
+  width: 43px;
+  height: 2px;
+}
 
+.features__text {
+  max-width: 708px;
+  margin: 0 auto;
+    margin-bottom: 0px;
+  margin-bottom: 60px;
   color: var(--color-text);
   text-align: center;
   font-size: 18px;
-  line-height: 1.4;
+  line-height: 1.39;
 }
 
 .features__list {
